@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource name="jdbc/web_student_tracker" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="5000" username="root" password="Y19961018y"
+              driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/web_student_tracker"/>
+</Context>
