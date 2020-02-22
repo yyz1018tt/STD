@@ -22,6 +22,6 @@
     <a href="/students">Jump</a>
     <br>
     <br>
-    <a href="email-form.jsp">Jump to Email</a>
+    <a href="email.jsp">Jump to Email</a>
 </body>
 </html>

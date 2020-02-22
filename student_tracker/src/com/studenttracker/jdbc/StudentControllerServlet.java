@@ -11,12 +11,14 @@ import javax.sql.DataSource;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "StudentControllerServlet", urlPatterns = {"/students"})
+@WebServlet(name = "StudentControllerServlet")
 public class StudentControllerServlet extends HttpServlet {
+
+    private static final long serialVersionUID = 1L;
 
     private StudentDbUtil studentDbUtil;
 
-    @Resource(name="jdbc/web_student_tracker")
+    @Resource(name="jdbc/q3dljbhsh0d1g1b7")
     private DataSource dataSource;
 
     @Override

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/">
-    <Resource name="jdbc/web_student_tracker" type="javax.sql.DataSource"
-              maxActive="100" maxIdle="30" maxWait="5000" username="root" password="Y19961018y"
-              driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/web_student_tracker"/>
+<!--    <Resource name="jdbc/web_student_tracker" type="javax.sql.DataSource"-->
+<!--              maxActive="100" maxIdle="30" maxWait="5000" username="root" password="Y19961018y"-->
+<!--              driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/web_student_tracker"/>-->
+
+<!--    <Resource name="jdbc/web_student_tracker" type="javax.sql.DataSource"-->
+<!--              maxActive="100" maxIdle="30" maxWait="5000" username="student" password="studentdb"-->
+<!--              driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://student-db.clzx87f6ahlv.ap-southeast-2.rds.amazonaws.com:3306/web_student_tracker"/>-->
+
+    <Resource name="jdbc/q3dljbhsh0d1g1b7" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="5000" username="b5erlpe1kng2gzm3" password="j52iqznd8c0mvmhd"
+              driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://b5erlpe1kng2gzm3:j52iqznd8c0mvmhd@tyduzbv3ggpf15sx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/q3dljbhsh0d1g1b7"/>
 </Context>
